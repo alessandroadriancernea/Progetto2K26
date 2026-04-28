@@ -18,7 +18,7 @@ Elenca le funzionalità principali:
 - Avviare il programma con un menu
 - Gestire input dell'utente
 - Eseguire almeno una funzione principale (tool)
-- Usare almeno un package Python esterno (colorama, random, string)
+- Usare almeno un package Python esterno (random, string)
 - Mostrare risultati o statistiche
 
 ## 5. Requisiti non funzionali
@@ -30,7 +30,7 @@ Elenca le funzionalità principali:
 
 ## 6. Scelta del package Python
 
-- Package scelto: `Colorama, Random, String`
+- Package scelto: `Random, String`
 - Perché lo abbiamo scelto: `Gli abbiamo scelti perchè ci facilitano il lavoro e non sono troppo complessi`
 - Come lo usiamo nel progetto: `Colorama per i colori, ad esempio se la password va bene è verde, random per generare la password in modo casuale e String perchè ci fa usare le stringhe meglio.`
 
