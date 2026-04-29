@@ -30,15 +30,14 @@ Elenca le funzionalità principali:
 
 ## 6. Scelta del package Python
 
-- Package scelto: `Random, String`
+- Package scelto: `Random, String, Time`
 - Perché lo abbiamo scelto: `Gli abbiamo scelti perchè ci facilitano il lavoro e non sono troppo complessi`
-- Come lo usiamo nel progetto: `Colorama per i colori, ad esempio se la password va bene è verde, random per generare la password in modo casuale e String perchè ci fa usare le stringhe meglio.`
+- Come lo usiamo nel progetto: `Ad esempio se la password va bene è verde, random per generare la password in modo casuale e String perchè ci fa usare le stringhe meglio e Time perchè ci servivano delle animazioni.`
 
 ## 7. Suddivisione del lavoro
 
-- Studente A: `Alessandro` si preoccupa della decifrazione
-- Studente B: `Felipe` si occupa del input password(complessità, lunghezza)
-tutti e due si occupano del main()
+- Studente A: `Alessandro` Si occupa del input password casuale e della decifrazione
+- Studente B: `Felipe` Password personale (verifica password)
 
 ## 8. Flusso del programma
 
