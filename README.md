@@ -4,7 +4,7 @@
 
 Password Generator 3000
 
-## 2. Obiettivo
+## 2. 🚩Obiettivo
 
 Apre una GUI e ti chiede di scegliere la lunghezza della password, la complessità e blocca le password troppo facili, poi prova a decifrarle
 
