@@ -56,8 +56,6 @@
 
 ## 10. 📝Note aggiuntive
 
-Aggiungi qui commenti sul tema, sulle idee future o sulle difficoltà previste.
-
 Tema semplice senza schermata avanzata, tutto sul CMD e statico, potrebbe contenere ASCII art
 Idee future: se possibile mettere una schermata basica fuori dal cmd
 Difficoltà previste: decodif, organizzare tutto nel main() e imparare i package

@@ -1,6 +1,5 @@
-from input_password.password_personale import inserisci_password
 import time
-password_corretta = inserisci_password()
+password_corretta = input("> ")
 
 charset = list('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~')
 
