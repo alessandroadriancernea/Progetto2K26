@@ -1,3 +1,5 @@
+# Decodifica_fbnonint = Decodifica_forzabruta_nonintelligente
+
 import time
 password_corretta = input("> ")
 
