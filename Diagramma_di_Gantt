@@ -1,0 +1,42 @@
+gantt
+    title Progetto - Generatore / Verifica Sicurezza Password
+    dateFormat YYYY-MM-DD
+    axisFormat %d/%m
+
+    %% =========================
+    %% SETTIMANA 1
+    %% =========================
+    section Analisi e Ricerca
+    Ricerca package e tecnologie     :a1, 2026-04-28, 7d
+    Scelta del tema                  :a2, 2026-04-29, 7d
+    Stesura dei requisiti            :a3, 2026-04-30, 7d
+
+    %% =========================
+    %% SETTIMANA 2
+    %% =========================
+    section Progettazione
+    Progettazione del programma      :b1, 2026-05-05, 7d
+    Divisione del lavoro             :b2, 2026-05-05, 7d
+
+    section Felipe
+    password_personale               :b3, 2026-05-05, 7d
+    Verifica_diff                    :b4, 2026-05-05, 7d
+
+    section Cernea
+    password_generator               :b5, 2026-05-05, 7d
+    Decodifica                       :b6, 2026-05-05, 7d
+
+    %% =========================
+    %% SETTIMANA 3
+    %% =========================
+    section Sviluppo e Testing
+    Implementazione funzionalità     :c1, 2026-05-12, 5d
+    Testing                          :c2, 2026-05-17, 5d
+
+    %% =========================
+    %% SETTIMANA 4
+    %% =========================
+    section Finalizzazione
+    Rifinitura grafica               :d1, 2026-05-12, 5d
+    Scrittura documentazione         :d2, 2026-05-12, 5d
+    Consegna finale                  :milestone, d3, 2026-05-22, 1d
