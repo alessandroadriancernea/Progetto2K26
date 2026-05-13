@@ -1,7 +1,7 @@
 # Questo programma chiede all'utente di inserire una password e verifica se è sicura
 # se la password a almeno 8 caratteri alla password viene assegnato il livello 1
 # se la password contiene almeno una lettera maiuscola alla password viene assegnato il livello 2
-# se la password contiene almeno una lettera minuscola alla password viene assegnato il livello 3
+# se la password contiene almeno 5 lettere minuscole alla password viene assegnato il livello 3
 # se la password contiene almeno 5 numeri alla password viene assegnato il livello 4
 # se la password contiene almeno un carattere speciale alla password viene assegnato il livello 5
 # e alla fine viene stampato il livello di sicurezza della password se 5 la password è molto sicura se 4 la password è sicura se 3 la password è debole se 2 la password è molto debole se 1 la password è estremamente debole
@@ -16,7 +16,7 @@ if len(password) >= 8:
 if any(char.isupper() for char in password):
     livello = 2
 
-if any(char.islower() for char in password):
+if sum(char.islower() for char in password) >= 5:
     livello = 3
 
 if sum(char.isdigit() for char in password) >= 5:
